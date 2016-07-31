@@ -1,0 +1,54 @@
+div {
+  border: solid 1px #eee;
+}
+
+.navbar-container{
+//  height: 70px;
+//  width: 90%;
+  display: block;
+  vertical-align: middle;
+}
+
+#cart{
+  height: 40px;
+  width: 100px;
+  vertical-align: middle;
+  float: right;
+}
+
+#mail{
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  float: right;
+}
+
+#mail img{
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#cart img{
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#viking-store h2{
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+
+#big_viking_logo{
+  width = 100%
+}
+
+#big_viking_logo img{
+  width: 700px;
+  height: 400px;
+  //display: block;
+
+}
