@@ -74,6 +74,7 @@ div {
   font-size: 40px;
   vertical-align: middle;
   line-height: 100px;
+  text-align: center;
 }
 
 #choose{
@@ -87,10 +88,34 @@ div {
 }
 
 .inv_img{
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 #inv_container{
   border: 1px solid black;
+  padding-top: 12px;
+}
+
+.table_headers{
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.rows td{
+  text-align: center;
+  border: 1px solid black;
+//  padding: 15px;
+}
+
+#inv_container{
+
+}
+
+#inv_table{
+  margin-left: auto;
+  margin-right: auto;
+
 }
