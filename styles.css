@@ -151,3 +151,40 @@ div {
 div table tr td a{
   text-decoration: none;
 }
+
+#inv_navigator{
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+#contact_info{
+  background-color: black;
+  text-align: center;
+  height: 70px;
+  color: white;
+}
+
+#contact_info p{
+  padding-top: 4px;
+  color: yellow;
+  padding-bottom: 4px;
+}
+
+.footer_icons{
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  padding-bottom: 4px;
+}
+
+.price{
+  border: 1px solid black;
+  height: 10px;
+  width: 38px;
+  //display: inline-block;
+  float:right;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+}
