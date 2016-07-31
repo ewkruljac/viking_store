@@ -1,5 +1,5 @@
 div {
-  border: solid 1px #eee;
+  //border: solid 1px #eee;
 }
 
 .navbar{
@@ -43,7 +43,7 @@ div {
 }
 
 #viking-store h2{
-  font-size: 24px;
+  font-size: 32px;
 //  display: inline-block;
   line-height: 70px;
   vertical-align: middle;
@@ -100,14 +100,18 @@ div {
 .table_headers{
   background-color: black;
   color: white;
-  padding: 8px;
   border: 1px solid black;
+  line-height: 30px;
 }
 
 .rows td{
-  text-align: center;
+  //text-align: center;
   border: 1px solid black;
-//  padding: 15px;
+  line-height: 10px;
+  //margin: 15px;
+  //border-collapse: separate;
+  //border-spacing: 10px 10px;
+  //padding-bottom: 10px;
 }
 
 #inv_container{
@@ -117,5 +121,33 @@ div {
 #inv_table{
   margin-left: auto;
   margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 10px 0px;
+  padding-bottom: 15px;
+}
 
+#spacer{
+  height: 10px !important;
+  background-color: #FFFFFF;
+}
+
+#add_cart_container{
+  border: 1px solid black;
+  background-color: black;
+  line-height: 20px;
+}
+
+#add_cart_button{
+  background-color: yellow;
+  color: black;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+div table tr td a{
+  text-decoration: none;
 }
